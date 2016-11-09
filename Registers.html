@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Memory</title>
+		<link rel="stylesheet" type="text/css" href="styling.css">
+	</head>
+	<body>
+		<div class = "topbar">
+			<div class = "fixed_width">
+				<div class = "logodiv">
+					<h1>The CPU</h1>
+				</div>
+				<div class = "navdiv">
+					<ul class = "navigation">
+						<li class = "navlist"><a href="index.html"  class = "navlinks">Home</a></li>
+						<li class = "navlist"><a href="Parts.html" class = "navlinks">Parts</a></li>
+						<li class = "navlist"><a href="Registers.html" class = "navlinks">Memory</a></li>
+						<li class = "navlist"><a href="Busses.html" class = "navlinks">Busses</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class = "mainContent">
+			<h1 class = "centered heading">Memory</h1>
+			<img src="pictures\cache.png" id = "CachePic">
+			<div class = "collums">
+				<div class = "collum_1">
+					<h2 class = "centered">RAM</h2>
+					<p class = "centered">RAM stands for Random Access Memory, it stores data needed by the CPU for the tasks it is preforming. It has a quite large capacity compared to ROM and Cache, generally around 2gb-16gb. If we increase the size of RAM we will be able to do more proccesses without using the hard drive as virtual memory, thus increasing capacity increases the performance of the computer. RAM is volatile memory so when the computer is turned off it looses all its data.</p>
+				</div>
+				<div class = "collum_2">
+					<h2 class = "centered">Cache</h2>
+					<p class = "centered">Cache is very similar to RAM, it stores data needed by the CPU for the tasks being carried out. It is built into the CPU and has a very small capacity, around 8kb-64kb. However as it is so close to the CPU it is alot faster than RAM. Therefore the most frequently used data and instructions will be stored in here for example keyobard shortcuts such as Ctrl+s. Similarly to RAM it is volatile so when the computer is turned off it looses all of its data.</p>
+				</div>
+				<div class = "collum_3">
+					<h2 class = "centered">Registers</h2>
+					<p class = "centered">A register is something built into the CPU that stores a peice of data or an instruction. There are 5 types further explained below. Registers need to be able to hold at least the amount fo bits the computer uses, for example 64 bits. There are different types that store different things. A register will work together with RAM or cache as it will store data or instructions from a memory location on the RAM or Cache. Registers are very important. </p>
+				</div>
+			</div>
+			<div>
+				<h1 class = "centered heading">Registers</h1>
+				<table>
+					<tr>
+						<th>Register</th>
+						<th>Definition</th>
+					</tr>
+					<tr>
+						<th>Program counter</th>
+						<td>This holds the address in memory of the next instruction.</td>
+					</tr>
+					<tr>
+						<th>Memory address register</th>
+						<td>This holds the Memory adress of the next piece of data or program to be fetched.</td>
+					</tr>
+					<tr>
+						<th>Memory data register</th>
+						<td>Where the data or instruction is stored after it has been fetched.</td>
+					</tr>
+					<tr>
+						<th>Current instruction register</th>
+						<td>This holds the current instruction to be executed, having been fetched from memory.</td>
+					</tr>
+					<tr>
+						<th>Accumulator</th>
+						<td>Where the output of the proccess is stored.</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

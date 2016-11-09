@@ -1,0 +1,175 @@
+body{
+	margin:0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+	font-size: 28px;
+	font-weight: bold;
+}
+.topbar{
+	width: 100%;
+	height: 90px;
+	background-color: #1f66ad;
+	color: white;
+}
+.fixed_width{
+	width: 1300px;
+	margin: 0 auto;
+}
+.logodiv{
+	float: left;
+	padding:15px 15px 15px 0;
+}
+
+.navdiv{
+	float: right;
+}
+
+.navlist{
+	list-style-type: none;
+	display: inline;
+	padding: 12px;
+	font-size: 17px;
+}
+.navigation{
+	padding-top: 25px;
+}
+.navlinks{
+	text-decoration: none;
+	color: white;
+}
+.navlinks:hover{
+	color: #d1e0e0;
+}
+
+.centered{
+	text-align: center;
+}
+.heading{
+	font-size: 55px;
+	color: #1f66ad;
+}
+#cpuPicture{
+	width: 400px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.collums{
+	width: 950px;
+	margin: 0 auto;
+}
+.collum_1 p{
+	line-height: 1.4em;
+	color: #919191;
+	font-size: 17px;
+}
+.collum_2 p{
+	line-height: 1.4em;
+	color: #919191;
+	font-size: 17px;
+}
+.collum_3 p{
+	line-height: 1.4em;
+	color: #919191;
+	font-size: 17px;
+}
+.collum_1 h2{
+	line-height: 1.4em;
+	color: #919191;
+	font-size: 25px;
+}
+.collum_2 h2{
+	line-height: 1.4em;
+	color: #919191;
+	font-size: 25px;
+}
+.collum_3 h2{
+	line-height: 1.4em;
+	color: #919191;
+	font-size: 25px;
+}
+.collum_1{
+	padding: 8px;
+	margin-top: 40px;
+    width: 300px;
+    float: left;
+    margin-bottom: 70px;
+    height: 350px;
+}
+.collum_2{
+	padding: 8px;
+	margin-top: 40px;
+    width: 300px;
+    float: left;
+    margin-bottom: 70px;
+    height: 350px;
+}
+.collum_3{
+	padding: 8px;
+	margin-top: 40px;
+    width: 300px;
+    float: left;
+    margin-bottom: 70px;
+    height: 350px;
+}
+#CycleTitle{
+	font-size: 40px;
+	padding-top: 15px;
+}
+#CPUdef{
+	line-height: 1.4em;
+	color: #919191;
+	font-size: 17px;
+	width: 950px;
+	margin: 0 auto;
+}
+#RamPic{
+	width: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#partsOfCPU{
+	line-height: 1.4em;
+	color: #919191;
+	font-size: 17px;
+	width: 950px;
+	margin: 0 auto;
+}
+.collum_title{
+	font-size: 40px;
+	padding-top: 15px;
+}
+#CachePic{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+}
+#BusPic{
+	width: 550px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+table {
+	font-size: 17px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+    border-collapse: collapse;
+    width: 950px;
+}
+#BusDef{
+	line-height: 1.4em;
+	color: #919191;
+	font-size: 17px;
+	width: 950px;
+	margin: 0 auto;
+}
